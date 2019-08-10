@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="16.831" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2019-08-10T11:49:33" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Sign Up Form Test Cases" timestamp="2019-08-10T11:49:33" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="3) Existing User Should be able to Login." timestamp="2019-08-10T11:49:33" tests="1" failures="0" time="16.831">
+    <testcase name="Sign Up Form Test Cases 3) Existing User Should be able to Login. Existing User try to sign up" time="16.831" classname="Existing User try to sign up">
+    </testcase>
+  </testsuite>
+</testsuites>

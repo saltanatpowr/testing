@@ -1,0 +1,13 @@
+{
+  "baseUrl": "https://www.powr-staging.io",
+  "defaultCommandTimeout": 5000,
+  "projectId": "u6pza7",
+  "env": {
+    "email": "ibrayevabay1@gmail.com",
+    "password": "abaybabay"
+  },
+  "reporter": "junit",
+  "reporterOptions": {
+    "mochaFile": "results/my-test-output-[hash].xml"
+  }
+}

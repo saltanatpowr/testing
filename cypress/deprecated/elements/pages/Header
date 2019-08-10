@@ -1,0 +1,23 @@
+class Header {
+    getLoginBtn() {
+        return cy.get('.signInTab.button-secondary-outline.topnavsignin:visible');
+    }
+    getSignUpBtn(){
+
+    }
+    getPluginsHeader(){
+
+    }
+    getPricingHeader(){
+
+    }
+    getAboutHeader(){
+
+    }
+    getBlogHeader(){
+
+    }
+
+}
+
+export default Header;

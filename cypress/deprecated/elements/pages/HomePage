@@ -1,0 +1,23 @@
+
+import LogInForm from "../forms/LogInForm";
+import Header from "./Header";
+class HomePage {
+
+    constructor() {
+        this.header = new Header();
+    }
+
+    visit() {
+        cy.visit('https://www.powr-staging.io');
+    }
+
+    goToLogIn() {
+        const link = this.header.getLoginBtn();
+        link.click();
+
+        const login = new LogInForm();
+        return login;
+    }
+}
+
+export default HomePage;

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0" tests="3" failures="3">
+  <testsuite name="Root Suite" timestamp="2019-08-09T09:07:39" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Pricing Page Test Cases" timestamp="2019-08-09T09:07:39" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="6) Pricing Page - Check prices" timestamp="2019-08-09T09:07:39" tests="1" failures="1" time="0">
+    <testcase name="Pricing Page Test Cases 6) Pricing Page - Check prices Check Prices for Social Feed" time="0" classname="Check Prices for Social Feed">
+      <failure message="Timed out retrying: Starter: expected &apos;&lt;span.cent-price.&gt;&apos; to contain &apos;49&apos;" type="CypressError"><![CDATA[CypressError: Timed out retrying: Starter: expected '<span.cent-price.>' to contain '49'
+    at Object.cypressErr (https://www.powr-staging.io/__cypress/runner/cypress_runner.js:85348:11)
+    at Object.throwErr (https://www.powr-staging.io/__cypress/runner/cypress_runner.js:85303:18)
+    at Object.throwErrByPath (https://www.powr-staging.io/__cypress/runner/cypress_runner.js:85335:17)
+    at retry (https://www.powr-staging.io/__cypress/runner/cypress_runner.js:77321:16)
+    at onFailFn (https://www.powr-staging.io/__cypress/runner/cypress_runner.js:68422:16)
+    at tryCatcher (https://www.powr-staging.io/__cypress/runner/cypress_runner.js:118962:23)
+    at Promise._settlePromiseFromHandler (https://www.powr-staging.io/__cypress/runner/cypress_runner.js:116898:31)
+    at Promise._settlePromise (https://www.powr-staging.io/__cypress/runner/cypress_runner.js:116955:18)
+    at Promise._settlePromise0 (https://www.powr-staging.io/__cypress/runner/cypress_runner.js:117000:10)
+    at Promise._settlePromises (https://www.powr-staging.io/__cypress/runner/cypress_runner.js:117075:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://www.powr-staging.io/__cypress/runner/cypress_runner.js:113687:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://www.powr-staging.io/__cypress/runner/cypress_runner.js:113697:10)
+    at Async.drainQueues (https://www.powr-staging.io/__cypress/runner/cypress_runner.js:113571:14)
+    at <anonymous>]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="6) Pricing Page - Payment Transaction" timestamp="2019-08-09T09:07:55" tests="2" failures="2" time="0">
+    <testcase name="Pricing Page Test Cases 6) Pricing Page - Payment Transaction Check Payment Form" time="0" classname="Check Payment Form">
+      <failure message="Timed out retrying: Expected to find element: &apos;.price-table__checkout-saved-cards-label&apos;, but never found it." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find element: '.price-table__checkout-saved-cards-label', but never found it.
+    at Object.cypressErr (https://www.powr-staging.io/__cypress/runner/cypress_runner.js:85348:11)
+    at Object.throwErr (https://www.powr-staging.io/__cypress/runner/cypress_runner.js:85303:18)
+    at Object.throwErrByPath (https://www.powr-staging.io/__cypress/runner/cypress_runner.js:85335:17)
+    at retry (https://www.powr-staging.io/__cypress/runner/cypress_runner.js:77321:16)
+    at onFailFn (https://www.powr-staging.io/__cypress/runner/cypress_runner.js:68422:16)
+    at tryCatcher (https://www.powr-staging.io/__cypress/runner/cypress_runner.js:118962:23)
+    at Promise._settlePromiseFromHandler (https://www.powr-staging.io/__cypress/runner/cypress_runner.js:116898:31)
+    at Promise._settlePromise (https://www.powr-staging.io/__cypress/runner/cypress_runner.js:116955:18)
+    at Promise._settlePromise0 (https://www.powr-staging.io/__cypress/runner/cypress_runner.js:117000:10)
+    at Promise._settlePromises (https://www.powr-staging.io/__cypress/runner/cypress_runner.js:117075:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://www.powr-staging.io/__cypress/runner/cypress_runner.js:113687:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://www.powr-staging.io/__cypress/runner/cypress_runner.js:113697:10)
+    at Async.drainQueues (https://www.powr-staging.io/__cypress/runner/cypress_runner.js:113571:14)
+    at <anonymous>]]></failure>
+    </testcase>
+    <testcase name="Pricing Page Test Cases 6) Pricing Page - Payment Transaction &quot;before each&quot; hook for &quot;Check Upgrade button&quot;" time="0" classname="&quot;before each&quot; hook for &quot;Check Upgrade button&quot;">
+      <failure message="Cannot read property &apos;success&apos; of undefined
+
+Because this error occurred during a &apos;before each&apos; hook we are skipping the remaining tests in the current suite: &apos;Pricing Page Test Cases&apos;" type="TypeError"><![CDATA[TypeError: Cannot read property 'success' of undefined
+
+Because this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: 'Pricing Page Test Cases'
+    at https://www.powr-staging.io/assets/packs/apps/socialFeed-4941d6201d85bce7515e.js:6189:17
+    at Object.<anonymous> (https://www.powr-staging.io/assets/packs/apps-standalone-1004543115d206293ea8.js:22619:9)
+    at j (https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js:2:27295)
+    at Object.fireWith [as rejectWith] (https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js:2:28108)
+    at x (https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js:4:22086)
+    at XMLHttpRequest.b (https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js:4:25980)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

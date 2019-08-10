@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="4.118" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2019-08-09T09:07:24" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Plugins Page Test Cases" timestamp="2019-08-09T09:07:24" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="2) Search Functionality is working." timestamp="2019-08-09T09:07:24" tests="1" failures="0" time="4.118">
+    <testcase name="Plugins Page Test Cases 2) Search Functionality is working. Search Box" time="4.118" classname="Search Box">
+    </testcase>
+  </testsuite>
+</testsuites>

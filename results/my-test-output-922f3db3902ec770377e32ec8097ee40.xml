@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0" tests="3" failures="1">
+  <testsuite name="Root Suite" timestamp="2019-08-10T13:40:59" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Home Page Test Cases" timestamp="2019-08-10T13:40:59" tests="3" failures="1" time="0">
+    <testcase name="Home Page Test Cases &quot;before each&quot; hook for &quot;1) Home Page Should open and validate&quot;" time="0" classname="&quot;before each&quot; hook for &quot;1) Home Page Should open and validate&quot;">
+      <failure message="cy.visit() failed trying to load:
+
+https://www.powr-staging.io/
+
+The response we received from your web server was:
+
+  &gt; 503: Service Unavailable
+
+This was considered a failure because the status code was not &apos;2xx&apos;.
+
+If you do not want status codes to cause failures pass the option: &apos;failOnStatusCode: false&apos;
+
+Because this error occurred during a &apos;before each&apos; hook we are skipping the remaining tests in the current suite: &apos;Home Page Test Cases&apos;" type="CypressError"><![CDATA[CypressError: cy.visit() failed trying to load:
+
+https://www.powr-staging.io/
+
+The response we received from your web server was:
+
+  > 503: Service Unavailable
+
+This was considered a failure because the status code was not '2xx'.
+
+If you do not want status codes to cause failures pass the option: 'failOnStatusCode: false'
+
+Because this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: 'Home Page Test Cases'
+    at Object.cypressErr (https://www.powr-staging.io/__cypress/runner/cypress_runner.js:85348:11)
+    at Object.throwErr (https://www.powr-staging.io/__cypress/runner/cypress_runner.js:85303:18)
+    at Object.throwErrByPath (https://www.powr-staging.io/__cypress/runner/cypress_runner.js:85335:17)
+    at https://www.powr-staging.io/__cypress/runner/cypress_runner.js:73974:31
+    at visitFailedByErr (https://www.powr-staging.io/__cypress/runner/cypress_runner.js:73499:12)
+    at https://www.powr-staging.io/__cypress/runner/cypress_runner.js:73955:22
+    at tryCatcher (https://www.powr-staging.io/__cypress/runner/cypress_runner.js:118962:23)
+    at Promise._settlePromiseFromHandler (https://www.powr-staging.io/__cypress/runner/cypress_runner.js:116898:31)
+    at Promise._settlePromise (https://www.powr-staging.io/__cypress/runner/cypress_runner.js:116955:18)
+    at Promise._settlePromise0 (https://www.powr-staging.io/__cypress/runner/cypress_runner.js:117000:10)
+    at Promise._settlePromises (https://www.powr-staging.io/__cypress/runner/cypress_runner.js:117075:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://www.powr-staging.io/__cypress/runner/cypress_runner.js:113687:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://www.powr-staging.io/__cypress/runner/cypress_runner.js:113697:10)
+    at Async.drainQueues (https://www.powr-staging.io/__cypress/runner/cypress_runner.js:113571:14)
+    at <anonymous>]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
