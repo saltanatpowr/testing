@@ -11,13 +11,15 @@
 
 - fixtures folder - here is set of static data for stubs (it is empty, cuz i didn’t implement integration tests in that example)
 
-- support folder - here u can see index and commands files, that useful for pre-setuping and some global functions) commands file - here - login global function for all test suites.
+- support folder - there is index and commands files, that useful for pre-setuping and some global functions) 
 
-- utils folder - commands that should be approved\rewritten after some time
+- support/commands.js file - where i placed some global reusable functions like - Login, SignIn, SignOut, ResetPassword
+
+- utils folder - commands that should be approved\rewritten after some time (not so global, and can be changed)
 
 # Code architecture(reusability): 
 
-- To follow DRY we should use support/commands.js file or create own javascript functions in something like utils.js file
+- To follow DRY I used support/commands.js file  and utils/ to create reusable fucntions as js functions
 Notice: Try to avoid coupling - make isolations for test cases!!!!
 
 - To follow Data Driven Testing - see pricing_page_spec.js file (Payment Form test case)
