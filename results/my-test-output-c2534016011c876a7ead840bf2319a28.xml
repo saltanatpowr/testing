@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="124.023" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2019-08-11T05:55:03" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Pricing Page Test Cases" timestamp="2019-08-11T05:55:03" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="6) Pricing Page" timestamp="2019-08-11T05:55:03" tests="3" failures="0" time="124.023">
+    <testcase name="Pricing Page Test Cases 6) Pricing Page Check Prices for Social Feed" time="45.606" classname="Check Prices for Social Feed">
+    </testcase>
+    <testcase name="Pricing Page Test Cases 6) Pricing Page Check Payment Form" time="63.833" classname="Check Payment Form">
+    </testcase>
+    <testcase name="Pricing Page Test Cases 6) Pricing Page Check Upgrade button" time="14.584" classname="Check Upgrade button">
+    </testcase>
+  </testsuite>
+</testsuites>

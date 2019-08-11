@@ -14,6 +14,7 @@ describe( 'Log In Form Test Cases', function() {
     context('5) Log In Functionality', () => {
         it( 'Check simple Log In', function() {
             cy.login(Cypress.env('email'),Cypress.env('password'))
+            cy.visit( '/users/me')
             cy.signOut()
         });
     });

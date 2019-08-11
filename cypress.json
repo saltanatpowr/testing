@@ -1,6 +1,6 @@
 {
-  "baseUrl": "https://www.powr-staging.io",
-  "defaultCommandTimeout": 5000,
+  "baseUrl": "https://www.powr.io",
+  "defaultCommandTimeout": 6000,
   "projectId": "u6pza7",
   "env": {
     "email": "ibrayevabay1@gmail.com",

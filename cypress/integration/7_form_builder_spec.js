@@ -23,6 +23,7 @@ describe( 'Form Builder Test Cases', function() {
             setCenterAlignmentToElement()
             clickNext()
             clickSubmit()
+            cy.visit( '/users/me')
             cy.signOut()
         });
     })

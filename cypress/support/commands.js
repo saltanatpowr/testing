@@ -27,7 +27,7 @@ Cypress.Commands.add("signUp", (email, password) => {
 
 Cypress.Commands.add("signOut", () => {
 
-    cy.visit(Cypress.config().baseUrl + '/users/me')
+
 
     const arrowAccountMenu = cy.get('.signed-in-menu').find('.fa')
     arrowAccountMenu.click()

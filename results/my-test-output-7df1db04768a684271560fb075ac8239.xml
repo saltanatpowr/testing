@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="8.728" tests="3" failures="1">
+  <testsuite name="Root Suite" timestamp="2019-08-11T05:54:04" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Home Page Test Cases" timestamp="2019-08-11T05:54:04" tests="3" failures="1" time="8.728">
+    <testcase name="Home Page Test Cases 1) Home Page Should open and validate" time="6.151" classname="1) Home Page Should open and validate">
+    </testcase>
+    <testcase name="Home Page Test Cases 1)  validate all the images." time="2.577" classname="1)  validate all the images.">
+    </testcase>
+    <testcase name="Home Page Test Cases 1) validate all  buttons are functional." time="0" classname="1) validate all  buttons are functional.">
+      <failure message="Cannot read property &apos;nodeType&apos; of null" type="TypeError"><![CDATA[TypeError: Cannot read property 'nodeType' of null
+    at Object.dom (https://www.powr-staging.io/assets/packs/static-home-4f517c57d844f1c778cc.js:95:3174)
+    at J (https://www.powr-staging.io/assets/packs/static-home-4f517c57d844f1c778cc.js:94:508)
+    at https://www.powr-staging.io/assets/packs/static-home-4f517c57d844f1c778cc.js:94:3771
+    at Array.map (<anonymous>)
+    at https://www.powr-staging.io/assets/packs/static-home-4f517c57d844f1c778cc.js:94:3749
+    at Array.map (<anonymous>)
+    at ea (https://www.powr-staging.io/assets/packs/static-home-4f517c57d844f1c778cc.js:94:3724)
+    at fa (https://www.powr-staging.io/assets/packs/static-home-4f517c57d844f1c778cc.js:95:181)
+    at q (https://www.powr-staging.io/assets/packs/static-home-4f517c57d844f1c778cc.js:95:1952)
+    at 2175.window.after_signin_callback (https://www.powr-staging.io/assets/packs/static-home-4f517c57d844f1c778cc.js:83:1214)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

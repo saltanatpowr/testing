@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="40.157" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2019-08-11T05:57:37" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Form Builder Test Cases" timestamp="2019-08-11T05:57:37" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="7) Form Builder" timestamp="2019-08-11T05:57:37" tests="1" failures="0" time="40.157">
+    <testcase name="Form Builder Test Cases 7) Form Builder Form builder" time="40.157" classname="Form builder">
+    </testcase>
+  </testsuite>
+</testsuites>

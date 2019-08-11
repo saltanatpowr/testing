@@ -11,6 +11,7 @@ describe( 'Sign Up Form Test Cases', function() {
             //verify button Create New Plugin
             const btnCreateNewPlugin = cy.get('.create-new-plugin')
             btnCreateNewPlugin.should('be.visible')
+            cy.visit( '/users/me')
             cy.signOut()
         });
     });

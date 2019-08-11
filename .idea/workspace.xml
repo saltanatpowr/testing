@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49c452de-6c0e-4718-b60c-9b868ad2f1ff" name="Default Changelist" comment="" />
+    <list default="true" id="49c452de-6c0e-4718-b60c-9b868ad2f1ff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress.json" beforeDir="false" afterPath="$PROJECT_DIR$/cypress.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/integration/3_sign_up_form_spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/integration/3_sign_up_form_spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/integration/4_5_login_form_spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/integration/4_5_login_form_spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/integration/7_form_builder_spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/integration/7_form_builder_spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/screenshots/0_sign_up_form_spec.js/Sign Up Form Test Cases -- Existing User try to sign up -- before each hook (failed).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/screenshots/1_home_page_spec.js/Home Page Test Cases -- 1) Home Page Should open and validate -- before each hook (failed).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/screenshots/2_plugins_page_spec.js/Plugins Page Test Cases -- 2) Search Functionality is working -- Search Box (failed).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/screenshots/4_5_login_form_spec.js/Log In Form Test Cases -- Reset password -- before each hook (failed).png" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/screenshots/4_5_login_form_spec.js/Log In Form Test Cases -- Reset password -- before each hook (failed).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/screenshots/6_pricing_page_spec.js/Pricing Page Test Cases -- 6) Pricing Page -- Check Payment Form (failed).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/screenshots/6_pricing_page_spec.js/Pricing Page Test Cases -- 6) Pricing Page -- Check Prices for Social Feed (failed).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/screenshots/6_pricing_page_spec.js/Pricing Page Test Cases -- 6) Pricing Page -- Check Upgrade button (failed).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/screenshots/7_form_builder_spec.js/Form Builder Test Cases -- Form builder -- before each hook (failed).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/support/commands.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/support/commands.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/videos/0_sign_up_form_spec.js.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/videos/1_home_page_spec.js.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/videos/1_home_page_spec.js.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/videos/2_plugins_page_spec.js.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/videos/2_plugins_page_spec.js.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/videos/4_5_login_form_spec.js.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/videos/4_5_login_form_spec.js.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/videos/6_pricing_page_spec.js.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/videos/6_pricing_page_spec.js.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/videos/7_form_builder_spec.js.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/videos/7_form_builder_spec.js.mp4" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +39,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1P65zOuPfaMPZOSBEt76CkGY7py" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -58,11 +86,22 @@
       <workItem from="1565181967236" duration="25245000" />
       <workItem from="1565277593325" duration="17006000" />
       <workItem from="1565348827957" duration="4873000" />
-      <workItem from="1565434070435" duration="10564000" />
+      <workItem from="1565434070435" duration="12119000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
